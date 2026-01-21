@@ -1,73 +1,82 @@
-# React + TypeScript + Vite
+# Agricola Showcase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+보드게임 아그리콜라(Agricola)를 소개하는 웹페이지입니다.
 
-Currently, two official plugins are available:
+**Live Demo**: https://krindale.github.io/agricola-showcase-/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Agricola](https://img.shields.io/badge/Agricola-Board%20Game-8B4513)
+![React](https://img.shields.io/badge/React-19-61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6)
+![Tailwind](https://img.shields.io/badge/Tailwind-4-06B6D4)
 
-## React Compiler
+## About
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+17세기 유럽, 농부가 되어 최고의 농장을 만드는 전략 보드게임 아그리콜라를 소개합니다.
 
-## Expanding the ESLint configuration
+### Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- 게임 소개 및 배경 스토리
+- 14라운드 / 6단계 게임 흐름 시각화
+- 핵심 액션 인터랙티브 가이드
+- 수확 시스템 및 점수 계산 안내
+- 한국어 / English 언어 전환
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Tech Stack
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- **Framework**: React 19 + TypeScript
+- **Build**: Vite 7
+- **Styling**: Tailwind CSS 4
+- **i18n**: react-i18next
+- **Deploy**: GitHub Pages
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Run dev server
+npm run dev
+
+# Build for production
+npm run build
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Project Structure
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
 ```
+src/
+├── components/
+│   ├── layout/        # Header, Footer
+│   ├── sections/      # 10 landing page sections
+│   └── ui/            # Reusable UI components
+├── locales/           # i18n translations (ko, en)
+├── i18n.ts
+├── App.tsx
+└── main.tsx
+```
+
+## Roadmap
+
+- [x] Phase 1: Showcase website
+- [ ] Phase 2: Online multiplayer gameplay
+
+## Game Info
+
+| | |
+|---|---|
+| **Players** | 1-5 |
+| **Time** | ~30 min/player |
+| **Age** | 12+ |
+| **Designer** | Uwe Rosenberg |
+| **Publisher** | Lookout Games (2007) |
+
+## License
+
+This is a fan project. Agricola is a trademark of Lookout Games.
+
+## Credits
+
+- Game Design: Uwe Rosenberg
+- Original Publisher: Lookout Games (2007)
+- English Edition: Z-Man Games (2008)
