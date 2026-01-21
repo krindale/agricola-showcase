@@ -1,0 +1,204 @@
+{
+  "nav": {
+    "about": "About",
+    "features": "Features",
+    "howToPlay": "How to Play",
+    "actions": "Core Actions",
+    "harvest": "Harvest",
+    "scoring": "Scoring",
+    "components": "Components",
+    "comingSoon": "Coming Soon"
+  },
+  "hero": {
+    "title": "AGRICOLA",
+    "tagline": "Become a 17th century farmer and build the best farm",
+    "players": "1-5 Players",
+    "time": "30 min/player",
+    "age": "12+",
+    "cta": "Learn More"
+  },
+  "about": {
+    "title": "About the Game",
+    "story": {
+      "line1": "Central Europe, 1670.",
+      "line2": "After the plague has passed, the world is rising again.",
+      "line3": "You are a farming couple living in a small wooden hut.",
+      "line4": "Over 14 rounds, you must plow fields, raise animals,",
+      "line5": "and grow your family to build a prosperous farm.",
+      "line6": "But be careful - each action can only be taken by one player.",
+      "line7": "If another farmer takes it first, you lose your chance."
+    }
+  },
+  "features": {
+    "title": "Why Agricola?",
+    "items": {
+      "strategy": {
+        "title": "Strategic Depth",
+        "desc": "Resource management, timing, blocking - every game is a new challenge"
+      },
+      "paths": {
+        "title": "Multiple Paths to Victory",
+        "desc": "Farming, livestock, family growth - find your own way"
+      },
+      "occupations": {
+        "title": "169 Occupation Cards",
+        "desc": "Different combinations every game, infinite replayability"
+      },
+      "improvements": {
+        "title": "139 Improvement Cards",
+        "desc": "Countless ways to upgrade your farm"
+      },
+      "solo": {
+        "title": "Solo Play",
+        "desc": "Enjoy a continuous campaign mode on your own"
+      },
+      "family": {
+        "title": "Family Game Mode",
+        "desc": "Simplified rules for the whole family"
+      }
+    }
+  },
+  "howToPlay": {
+    "title": "Game Flow",
+    "subtitle": "6 Stages, 14 Rounds",
+    "stages": "Stages",
+    "rounds": "Rounds",
+    "harvest": "Harvest",
+    "finalHarvest": "Final Harvest",
+    "roundPhases": {
+      "title": "4 Phases per Round",
+      "phase1": {
+        "title": "1. Round Start",
+        "desc": "Reveal new action"
+      },
+      "phase2": {
+        "title": "2. Replenish",
+        "desc": "Place resources"
+      },
+      "phase3": {
+        "title": "3. Work",
+        "desc": "Place family members"
+      },
+      "phase4": {
+        "title": "4. Return Home",
+        "desc": "Retrieve family"
+      }
+    }
+  },
+  "coreActions": {
+    "title": "Core Actions",
+    "house": {
+      "title": "House Building & Renovation",
+      "wood": "Wooden Hut",
+      "clay": "Clay Hut",
+      "stone": "Stone House",
+      "tip1": "5 Wood + 2 Reed = Add wooden room",
+      "tip2": "Rooms needed for family growth",
+      "tip3": "Stone house = 2 points per room!"
+    },
+    "family": {
+      "title": "Family Growth",
+      "tip1": "More family = more actions",
+      "tip2": "But 2 food per person each harvest!",
+      "tip3": "Maximum of 5 family members"
+    },
+    "farming": {
+      "title": "Plowing & Sowing",
+      "plow": "Plow Field",
+      "grain": "Sow Grain (1→3)",
+      "vegetable": "Sow Vegetables (1→2)",
+      "bake": "Bake bread for food"
+    },
+    "animals": {
+      "title": "Animal Husbandry",
+      "intro": "Fences + Pastures = Animal capacity",
+      "sheep": "Sheep",
+      "boar": "Wild Boar",
+      "cattle": "Cattle",
+      "capacity": "2 animals per space",
+      "stable": "Stables double capacity",
+      "breeding": "Breeding at harvest!",
+      "pet": "1 pet allowed in house"
+    }
+  },
+  "harvest": {
+    "title": "Harvest System",
+    "intro": "Harvest time has come!",
+    "phase1": {
+      "title": "Phase 1: Fields",
+      "desc": "Harvest 1 grain/vegetable from sown fields"
+    },
+    "phase2": {
+      "title": "Phase 2: Feeding",
+      "desc": "2 food per family member!",
+      "note": "(Newborns need only 1)"
+    },
+    "phase3": {
+      "title": "Phase 3: Breeding",
+      "desc": "2 same animals → 1 offspring!"
+    },
+    "warning": {
+      "title": "1 Begging card = -3 points",
+      "desc": "Don't let your family starve!"
+    },
+    "shortage": "Not enough food? → Begging card (-3 points)"
+  },
+  "scoring": {
+    "title": "Scoring",
+    "subtitle": "Build a balanced farm",
+    "categories": {
+      "fields": "Fields",
+      "pastures": "Pastures",
+      "grain": "Grain",
+      "vegetables": "Vegetables",
+      "sheep": "Sheep",
+      "boar": "Wild Boar",
+      "cattle": "Cattle"
+    },
+    "bonus": {
+      "title": "Bonus Points",
+      "clayRoom": "Clay hut room: 1 point each",
+      "stoneRoom": "Stone house room: 2 points each",
+      "familyMember": "Family member: 3 points each",
+      "fencedStable": "Fenced stable: 1 point each",
+      "emptySpace": "Empty farm space: -1 point each"
+    },
+    "tip": "Being good at just one thing isn't enough! Avoid 0 in all categories and build a balanced farm."
+  },
+  "components": {
+    "title": "Components Gallery",
+    "board": "Game Board",
+    "boardDesc": "3 main boards + farm boards",
+    "cards": "Card Types",
+    "occupations": "Occupation cards (169)",
+    "minorImprovements": "Minor improvements (139)",
+    "majorImprovements": "Major improvements (10)",
+    "roundCards": "Round cards (14)",
+    "tokens": "Tokens & Meeples",
+    "resources": "Resources: Wood, Clay, Reed, Stone, Grain, Vegetables",
+    "animals": "Animals: Sheep, Wild Boar, Cattle",
+    "others": "Family meeples, Fences, Stables"
+  },
+  "comingSoon": {
+    "title": "Online Play",
+    "badge": "Coming Soon",
+    "desc": "Soon you'll be able to play Agricola online",
+    "feature1": "1-5 player online multiplayer",
+    "feature2": "Solo mode",
+    "feature3": "Real-time matches",
+    "emailPlaceholder": "Enter your email",
+    "notify": "Notify Me"
+  },
+  "footer": {
+    "designer": "Designer: Uwe Rosenberg",
+    "publisher": "Original Publisher: Lookout Games (2007)",
+    "english": "English Edition: Z-Man Games (2008)",
+    "disclaimer": "This website is a fan project"
+  },
+  "common": {
+    "point": "point",
+    "points": "points",
+    "each": "each",
+    "person": "person"
+  }
+}

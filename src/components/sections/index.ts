@@ -1,0 +1,9 @@
+export { default as Hero } from './Hero';
+export { default as About } from './About';
+export { default as Features } from './Features';
+export { default as HowToPlay } from './HowToPlay';
+export { default as CoreActions } from './CoreActions';
+export { default as Harvest } from './Harvest';
+export { default as Scoring } from './Scoring';
+export { default as Components } from './Components';
+export { default as ComingSoon } from './ComingSoon';

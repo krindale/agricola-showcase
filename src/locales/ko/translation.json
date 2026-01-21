@@ -1,0 +1,204 @@
+{
+  "nav": {
+    "about": "게임 소개",
+    "features": "특징",
+    "howToPlay": "게임 방법",
+    "actions": "핵심 액션",
+    "harvest": "수확",
+    "scoring": "점수",
+    "components": "구성품",
+    "comingSoon": "Coming Soon"
+  },
+  "hero": {
+    "title": "AGRICOLA",
+    "tagline": "17세기 농부가 되어 최고의 농장을 만드세요",
+    "players": "1-5인",
+    "time": "30분/인",
+    "age": "12세+",
+    "cta": "게임 알아보기"
+  },
+  "about": {
+    "title": "게임 소개",
+    "story": {
+      "line1": "중앙 유럽, 1670년.",
+      "line2": "흑사병이 지나간 후, 세상은 다시 일어서고 있습니다.",
+      "line3": "당신은 작은 오두막에 사는 농부 부부입니다.",
+      "line4": "14라운드 동안 밭을 일구고, 동물을 기르고,",
+      "line5": "가족을 성장시켜 번영하는 농장을 만들어야 합니다.",
+      "line6": "하지만 조심하세요 - 모든 액션은 한 명만 선택할 수 있습니다.",
+      "line7": "다른 농부가 먼저 가져가면, 당신은 기회를 놓치게 됩니다."
+    }
+  },
+  "features": {
+    "title": "왜 아그리콜라인가?",
+    "items": {
+      "strategy": {
+        "title": "전략적 깊이",
+        "desc": "자원 관리, 타이밍, 상대 견제 - 매 판 새로운 전략"
+      },
+      "paths": {
+        "title": "다양한 승리 경로",
+        "desc": "농업, 축산, 가족 확장 - 당신만의 길을 찾으세요"
+      },
+      "occupations": {
+        "title": "169개 직업 카드",
+        "desc": "매 게임 다른 조합, 무한한 리플레이 가치"
+      },
+      "improvements": {
+        "title": "139개 개선 카드",
+        "desc": "농장을 업그레이드하는 다양한 방법"
+      },
+      "solo": {
+        "title": "솔로 플레이",
+        "desc": "혼자서도 즐기는 연속 캠페인 모드"
+      },
+      "family": {
+        "title": "가족 게임 모드",
+        "desc": "간소화된 규칙으로 온 가족이 함께"
+      }
+    }
+  },
+  "howToPlay": {
+    "title": "게임 흐름",
+    "subtitle": "6단계, 14라운드",
+    "stages": "단계",
+    "rounds": "라운드",
+    "harvest": "수확",
+    "finalHarvest": "최종수확",
+    "roundPhases": {
+      "title": "각 라운드의 4단계",
+      "phase1": {
+        "title": "1. 라운드 시작",
+        "desc": "새 액션 공개"
+      },
+      "phase2": {
+        "title": "2. 보충",
+        "desc": "자원 배치"
+      },
+      "phase3": {
+        "title": "3. 작업",
+        "desc": "가족 배치"
+      },
+      "phase4": {
+        "title": "4. 귀가",
+        "desc": "가족 복귀"
+      }
+    }
+  },
+  "coreActions": {
+    "title": "핵심 액션",
+    "house": {
+      "title": "집 확장 & 개조",
+      "wood": "나무 오두막",
+      "clay": "점토 오두막",
+      "stone": "석조 주택",
+      "tip1": "5 나무 + 2 갈대 = 나무 방 추가",
+      "tip2": "방이 있어야 가족이 늘어납니다",
+      "tip3": "석조주택은 방당 2점!"
+    },
+    "family": {
+      "title": "가족 성장",
+      "tip1": "가족이 많을수록 더 많은 액션",
+      "tip2": "하지만 매 수확마다 2음식씩 먹여야!",
+      "tip3": "최대 5명까지 가능"
+    },
+    "farming": {
+      "title": "밭 갈기 & 파종",
+      "plow": "밭 갈기",
+      "grain": "곡물 파종 (1→3)",
+      "vegetable": "채소 파종 (1→2)",
+      "bake": "빵 굽기로 음식 변환"
+    },
+    "animals": {
+      "title": "동물 기르기",
+      "intro": "울타리 + 목초지 = 동물 수용",
+      "sheep": "양",
+      "boar": "멧돼지",
+      "cattle": "소",
+      "capacity": "1칸당 2마리",
+      "stable": "마구간 있으면 2배",
+      "breeding": "수확 때 번식!",
+      "pet": "집에는 애완동물 1마리 가능"
+    }
+  },
+  "harvest": {
+    "title": "수확 시스템",
+    "intro": "수확 시간이 왔습니다!",
+    "phase1": {
+      "title": "Phase 1: 밭",
+      "desc": "파종된 밭에서 곡물/채소 1개씩 수확"
+    },
+    "phase2": {
+      "title": "Phase 2: 먹이기",
+      "desc": "가족 1명당 2음식 필요!",
+      "note": "(신생아는 1음식)"
+    },
+    "phase3": {
+      "title": "Phase 3: 번식",
+      "desc": "같은 동물 2마리 → 새끼 1마리!"
+    },
+    "warning": {
+      "title": "구걸 카드 1장 = -3점",
+      "desc": "가족을 굶기지 마세요!"
+    },
+    "shortage": "음식이 부족하면? → 구걸 카드 (-3점)"
+  },
+  "scoring": {
+    "title": "점수 계산",
+    "subtitle": "균형 잡힌 농장을 만드세요",
+    "categories": {
+      "fields": "밭",
+      "pastures": "목초지",
+      "grain": "곡물",
+      "vegetables": "채소",
+      "sheep": "양",
+      "boar": "멧돼지",
+      "cattle": "소"
+    },
+    "bonus": {
+      "title": "추가 점수",
+      "clayRoom": "점토 오두막 방: 1점/개",
+      "stoneRoom": "석조 주택 방: 2점/개",
+      "familyMember": "가족 구성원: 3점/명",
+      "fencedStable": "울타리 친 마구간: 1점/개",
+      "emptySpace": "빈 농장 공간: -1점/개"
+    },
+    "tip": "하나만 잘하면 안 됩니다! 모든 카테고리에서 0을 피하고, 균형 잡힌 농장을 만드세요."
+  },
+  "components": {
+    "title": "구성품 갤러리",
+    "board": "게임 보드",
+    "boardDesc": "메인 보드 3개 + 농장 보드",
+    "cards": "카드 종류",
+    "occupations": "직업 카드 (169장)",
+    "minorImprovements": "소규모 개선 (139장)",
+    "majorImprovements": "주요 개선 (10장)",
+    "roundCards": "라운드 카드 (14장)",
+    "tokens": "토큰 & 말",
+    "resources": "자원: 나무, 점토, 갈대, 돌, 곡물, 채소",
+    "animals": "동물: 양, 멧돼지, 소",
+    "others": "가족 말, 울타리, 마구간"
+  },
+  "comingSoon": {
+    "title": "온라인 플레이",
+    "badge": "Coming Soon",
+    "desc": "곧 웹에서 아그리콜라를 플레이할 수 있습니다",
+    "feature1": "1-5인 온라인 멀티플레이어",
+    "feature2": "솔로 모드",
+    "feature3": "실시간 대전",
+    "emailPlaceholder": "이메일 주소 입력",
+    "notify": "알림 받기"
+  },
+  "footer": {
+    "designer": "원작자: Uwe Rosenberg",
+    "publisher": "원작 출판: Lookout Games (2007)",
+    "english": "영어판: Z-Man Games (2008)",
+    "disclaimer": "이 웹사이트는 팬 프로젝트입니다"
+  },
+  "common": {
+    "point": "점",
+    "points": "점",
+    "each": "개",
+    "person": "명"
+  }
+}
