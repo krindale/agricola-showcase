@@ -24,7 +24,7 @@ export default function Scoring() {
 
       {/* Score Table */}
       <div className="overflow-x-auto mb-8">
-        <table className="w-full max-w-3xl mx-auto bg-white rounded-lg overflow-hidden shadow-lg">
+        <table className="w-full max-w-3xl mx-auto bg-white/80 backdrop-blur-md rounded-lg overflow-hidden shadow-lg border border-primary/10">
           <thead>
             <tr className="bg-primary text-white">
               <th className="py-3 px-4 text-left">{t('scoring.title')}</th>
@@ -39,7 +39,7 @@ export default function Scoring() {
             {scoreTable.map((row, idx) => (
               <tr
                 key={row.key}
-                className={idx % 2 === 0 ? 'bg-background/50' : 'bg-white'}
+                className={idx % 2 === 0 ? 'bg-background/50' : 'bg-white/20'}
               >
                 <td className="py-3 px-4 font-medium">
                   <span className="mr-2">{row.icon}</span>
@@ -76,7 +76,7 @@ export default function Scoring() {
       </Card>
 
       {/* Tip */}
-      <div className="max-w-2xl mx-auto mt-8 bg-accent/20 rounded-lg p-6 text-center">
+      <div className="max-w-2xl mx-auto mt-8 bg-white/80 backdrop-blur-md rounded-lg p-6 text-center shadow-lg border border-primary/10">
         <p className="text-lg text-amber-800">
           💡 {t('scoring.tip')}
         </p>
