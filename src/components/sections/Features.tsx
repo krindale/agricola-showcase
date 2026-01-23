@@ -21,7 +21,7 @@ export default function Features() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {features.map((key) => (
-          <Card key={key} hover>
+          <Card key={key} hover glass>
             <div className="text-4xl mb-4">{featureIcons[key]}</div>
             <h3 className="font-serif text-xl font-bold text-text mb-2">
               {t(`features.items.${key}.title`)}

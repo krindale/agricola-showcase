@@ -1,0 +1,39 @@
+{
+  "sandbox": {
+    "enabled": true,
+    "autoAllowBashIfSandboxed": true
+  },
+  "permissions": {
+    "defaultMode": "acceptEdits",
+    "allow": [
+      "Read(./**)",
+      "Write(./**)",
+      "Edit(./**)",
+      "Glob(./**)",
+      "Grep(./**)",
+      "Read(/Users/dalelee/Desktop/argricola-showcase/.auto-claude/worktrees/tasks/003-glassmorphism-effects/**)",
+      "Write(/Users/dalelee/Desktop/argricola-showcase/.auto-claude/worktrees/tasks/003-glassmorphism-effects/**)",
+      "Edit(/Users/dalelee/Desktop/argricola-showcase/.auto-claude/worktrees/tasks/003-glassmorphism-effects/**)",
+      "Glob(/Users/dalelee/Desktop/argricola-showcase/.auto-claude/worktrees/tasks/003-glassmorphism-effects/**)",
+      "Grep(/Users/dalelee/Desktop/argricola-showcase/.auto-claude/worktrees/tasks/003-glassmorphism-effects/**)",
+      "Read(/Users/dalelee/Desktop/argricola-showcase/.auto-claude/worktrees/tasks/003-glassmorphism-effects/.auto-claude/specs/003-glassmorphism-effects/**)",
+      "Write(/Users/dalelee/Desktop/argricola-showcase/.auto-claude/worktrees/tasks/003-glassmorphism-effects/.auto-claude/specs/003-glassmorphism-effects/**)",
+      "Edit(/Users/dalelee/Desktop/argricola-showcase/.auto-claude/worktrees/tasks/003-glassmorphism-effects/.auto-claude/specs/003-glassmorphism-effects/**)",
+      "Read(/Users/dalelee/Desktop/argricola-showcase/.auto-claude/**)",
+      "Write(/Users/dalelee/Desktop/argricola-showcase/.auto-claude/**)",
+      "Edit(/Users/dalelee/Desktop/argricola-showcase/.auto-claude/**)",
+      "Glob(/Users/dalelee/Desktop/argricola-showcase/.auto-claude/**)",
+      "Grep(/Users/dalelee/Desktop/argricola-showcase/.auto-claude/**)",
+      "Bash(*)",
+      "WebFetch(*)",
+      "WebSearch(*)",
+      "mcp__context7__resolve-library-id(*)",
+      "mcp__context7__get-library-docs(*)",
+      "mcp__graphiti-memory__search_nodes(*)",
+      "mcp__graphiti-memory__search_facts(*)",
+      "mcp__graphiti-memory__add_episode(*)",
+      "mcp__graphiti-memory__get_episodes(*)",
+      "mcp__graphiti-memory__get_entity_edge(*)"
+    ]
+  }
+}

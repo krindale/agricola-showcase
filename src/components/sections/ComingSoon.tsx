@@ -46,7 +46,7 @@ export default function ComingSoon() {
         </div>
 
         {submitted ? (
-          <div className="bg-green-50 border border-green-200 rounded-lg p-6">
+          <div className="bg-green-50/80 backdrop-blur-md border border-green-200/50 rounded-lg p-6 shadow-lg">
             <p className="text-green-700 font-medium">
               🎉 Thank you! We'll notify you when online play is ready.
             </p>
@@ -58,7 +58,7 @@ export default function ComingSoon() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder={t('comingSoon.emailPlaceholder')}
-              className="flex-1 px-4 py-3 rounded-lg border border-primary/30 focus:outline-none focus:border-primary bg-white"
+              className="flex-1 px-4 py-3 rounded-lg border border-primary/10 focus:outline-none focus:border-primary bg-white/80 backdrop-blur-md shadow-lg"
               required
             />
             <Button type="submit" variant="primary">
