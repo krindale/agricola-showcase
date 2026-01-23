@@ -1,8 +1,12 @@
 import { useTranslation } from 'react-i18next';
+import { motion } from 'framer-motion';
 import { Section, SectionTitle, Card } from '../ui';
+import { useReducedMotion } from '../../hooks/useReducedMotion';
+import { staggerContainer, fadeIn } from '../../utils/motion';
 
 export default function Harvest() {
   const { t } = useTranslation();
+  const prefersReducedMotion = useReducedMotion();
 
   const phases = [
     { key: 'phase1', icon: '🌾', color: 'bg-amber-100 border-amber-300' },
@@ -19,9 +23,19 @@ export default function Harvest() {
       </div>
 
       {/* Harvest Phases */}
-      <div className="max-w-3xl mx-auto space-y-4">
+      <motion.div
+        className="max-w-3xl mx-auto space-y-4"
+        initial={prefersReducedMotion ? 'visible' : 'hidden'}
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.3 }}
+        variants={prefersReducedMotion ? undefined : staggerContainer(0.15)}
+      >
         {phases.map((phase, idx) => (
-          <div key={phase.key} className="relative">
+          <motion.div
+            key={phase.key}
+            className="relative"
+            variants={prefersReducedMotion ? undefined : fadeIn}
+          >
             <Card className={`${phase.color} border-2`}>
               <div className="flex items-start gap-4">
                 <span className="text-4xl">{phase.icon}</span>
@@ -48,12 +62,18 @@ export default function Harvest() {
                 {t('harvest.shortage')}
               </div>
             )}
-          </div>
+          </motion.div>
         ))}
-      </div>
+      </motion.div>
 
       {/* Warning Box */}
-      <div className="max-w-md mx-auto mt-8">
+      <motion.div
+        className="max-w-md mx-auto mt-8"
+        initial={prefersReducedMotion ? 'visible' : 'hidden'}
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.3 }}
+        variants={prefersReducedMotion ? undefined : fadeIn}
+      >
         <div className="bg-red-50 border-2 border-red-200 rounded-lg p-4 text-center">
           <p className="text-red-700 font-bold text-lg">
             ⚠️ {t('harvest.warning.title')}
@@ -62,7 +82,7 @@ export default function Harvest() {
             {t('harvest.warning.desc')}
           </p>
         </div>
-      </div>
+      </motion.div>
     </Section>
   );
 }

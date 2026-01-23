@@ -78,7 +78,7 @@ export default function Header() {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <nav className="md:hidden py-4 border-t border-primary/10">
+          <nav className="md:hidden py-4 border-t border-primary/10 bg-white/80 backdrop-blur-md shadow-lg rounded-b-lg">
             <div className="flex flex-col gap-3">
               {navItems.map((item) => (
                 <a

@@ -8,6 +8,8 @@ import {
   Harvest,
   Scoring,
   Components,
+  PlayerBoardGallery,
+  CardDatabase,
   ComingSoon,
 } from './components/sections';
 
@@ -20,10 +22,12 @@ function App() {
         <About />
         <Features />
         <HowToPlay />
+        <CardDatabase />
         <CoreActions />
         <Harvest />
         <Scoring />
         <Components />
+        <PlayerBoardGallery />
         <ComingSoon />
       </main>
       <Footer />

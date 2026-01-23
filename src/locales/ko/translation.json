@@ -177,7 +177,41 @@
     "tokens": "토큰 & 말",
     "resources": "자원: 나무, 점토, 갈대, 돌, 곡물, 채소",
     "animals": "동물: 양, 멧돼지, 소",
-    "others": "가족 말, 울타리, 마구간"
+    "others": "가족 말, 울타리, 마구간",
+    "resourceTokens": "자원 토큰"
+  },
+  "playerBoard": {
+    "title": "당신의 농장 보드",
+    "subtitle": "14라운드 동안 작은 오두막을 번영하는 농장으로 변화시키세요",
+    "imageAlt": "아그리콜라 플레이어 보드 농장 레이아웃",
+    "stages": {
+      "start": {
+        "title": "게임 시작",
+        "desc": "나무 방 2개와 가족 2명"
+      },
+      "early": {
+        "title": "초반",
+        "desc": "방 확장과 첫 밭"
+      },
+      "mid": {
+        "title": "중반",
+        "desc": "목초지와 가족 성장"
+      },
+      "late": {
+        "title": "후반",
+        "desc": "동물이 있는 완성된 농장"
+      }
+    }
+  },
+  "cardDatabase": {
+    "title": "카드 데이터베이스",
+    "searchPlaceholder": "카드 검색...",
+    "filterAll": "전체 카드",
+    "filterOccupations": "직업",
+    "filterMinor": "소형 설비",
+    "filterMajor": "대형 설비",
+    "noResults": "검색 결과 없음",
+    "resultCount": "{{count}}개의 카드"
   },
   "comingSoon": {
     "title": "온라인 플레이",

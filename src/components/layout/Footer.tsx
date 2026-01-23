@@ -4,14 +4,14 @@ export default function Footer() {
   const { t } = useTranslation();
 
   return (
-    <footer className="bg-text text-background/80 py-12">
+    <footer className="bg-text dark:bg-gray-900 text-background/80 dark:text-gray-300 py-12">
       <div className="container mx-auto px-4 md:px-6 max-w-6xl">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-center md:text-left">
-            <h3 className="font-serif text-2xl font-bold text-background mb-2">
+            <h3 className="font-serif text-2xl font-bold text-background dark:text-gray-100 mb-2">
               Agricola
             </h3>
-            <p className="text-sm text-background/60">
+            <p className="text-sm text-background/60 dark:text-gray-400">
               {t('footer.disclaimer')}
             </p>
           </div>
@@ -23,15 +23,15 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-8 pt-6 border-t border-background/20 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-sm text-background/50">
+        <div className="mt-8 pt-6 border-t border-background/20 dark:border-gray-700/50 flex flex-col md:flex-row justify-between items-center gap-4">
+          <p className="text-sm text-background/50 dark:text-gray-500">
             © 2024 Agricola Showcase. Fan Project.
           </p>
           <a
             href="https://github.com/krindale/agricola-showcase-"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-background/50 hover:text-background transition-colors"
+            className="text-background/50 dark:text-gray-500 hover:text-background dark:hover:text-gray-200 transition-colors"
           >
             <svg
               className="w-6 h-6"

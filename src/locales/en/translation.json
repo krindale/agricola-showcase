@@ -177,7 +177,41 @@
     "tokens": "Tokens & Meeples",
     "resources": "Resources: Wood, Clay, Reed, Stone, Grain, Vegetables",
     "animals": "Animals: Sheep, Wild Boar, Cattle",
-    "others": "Family meeples, Fences, Stables"
+    "others": "Family meeples, Fences, Stables",
+    "resourceTokens": "Resource Tokens"
+  },
+  "playerBoard": {
+    "title": "Your Farm Board",
+    "subtitle": "Transform your wooden hut into a thriving farm over 14 rounds",
+    "imageAlt": "Agricola player board showing farm layout",
+    "stages": {
+      "start": {
+        "title": "Game Start",
+        "desc": "2 wooden rooms with 2 family members"
+      },
+      "early": {
+        "title": "Early Game",
+        "desc": "Adding rooms and first fields"
+      },
+      "mid": {
+        "title": "Mid Game",
+        "desc": "Pastures and growing family"
+      },
+      "late": {
+        "title": "Late Game",
+        "desc": "Fully developed farm with animals"
+      }
+    }
+  },
+  "cardDatabase": {
+    "title": "Card Database",
+    "searchPlaceholder": "Search cards...",
+    "filterAll": "All Cards",
+    "filterOccupations": "Occupations",
+    "filterMinor": "Minor Improvements",
+    "filterMajor": "Major Improvements",
+    "noResults": "No cards found",
+    "resultCount": "{{count}} cards found"
   },
   "comingSoon": {
     "title": "Online Play",

@@ -18,9 +18,9 @@ export default function Button({
   const baseStyles = 'font-medium rounded-lg transition-all duration-200 inline-flex items-center justify-center';
 
   const variants = {
-    primary: 'bg-primary text-white hover:bg-primary/90 shadow-md hover:shadow-lg',
-    secondary: 'bg-secondary text-white hover:bg-secondary/90 shadow-md hover:shadow-lg',
-    outline: 'border-2 border-primary text-primary hover:bg-primary hover:text-white',
+    primary: 'bg-primary text-white hover:bg-primary/90 shadow-md hover:shadow-lg dark:bg-primary dark:hover:bg-primary/80 dark:shadow-lg',
+    secondary: 'bg-secondary text-white hover:bg-secondary/90 shadow-md hover:shadow-lg dark:bg-secondary dark:hover:bg-secondary/80 dark:shadow-lg',
+    outline: 'border-2 border-primary text-primary hover:bg-primary hover:text-white dark:border-primary dark:text-primary dark:hover:bg-primary dark:hover:text-white',
   };
 
   const sizes = {

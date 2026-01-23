@@ -1,12 +1,16 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { motion, AnimatePresence } from 'framer-motion';
 import { Section, SectionTitle, Card } from '../ui';
+import { useReducedMotion } from '../../hooks/useReducedMotion';
+import { fadeIn, scaleUp, pressDown } from '../../utils/motion';
 
 type ActionKey = 'house' | 'family' | 'farming' | 'animals';
 
 export default function CoreActions() {
   const { t } = useTranslation();
   const [activeAction, setActiveAction] = useState<ActionKey>('house');
+  const prefersReducedMotion = useReducedMotion();
 
   const actions: { key: ActionKey; icon: string }[] = [
     { key: 'house', icon: '🏠' },
@@ -113,7 +117,7 @@ export default function CoreActions() {
       {/* Action Tabs */}
       <div className="flex flex-wrap justify-center gap-2 md:gap-4 mb-8">
         {actions.map(({ key, icon }) => (
-          <button
+          <motion.button
             key={key}
             onClick={() => setActiveAction(key)}
             className={`px-4 py-2 md:px-6 md:py-3 rounded-lg font-medium transition-all ${
@@ -121,19 +125,32 @@ export default function CoreActions() {
                 ? 'bg-primary text-white shadow-lg'
                 : 'bg-white text-text hover:bg-primary/10'
             }`}
+            whileHover={prefersReducedMotion ? undefined : scaleUp}
+            whileTap={prefersReducedMotion ? undefined : pressDown}
+            initial={prefersReducedMotion ? undefined : { scale: 1 }}
           >
             <span className="mr-2">{icon}</span>
             {t(`coreActions.${key}.title`)}
-          </button>
+          </motion.button>
         ))}
       </div>
 
       {/* Action Content */}
       <Card className="max-w-2xl mx-auto">
-        <h3 className="font-serif text-2xl font-bold text-center mb-6">
-          {t(`coreActions.${activeAction}.title`)}
-        </h3>
-        {renderActionContent(activeAction)}
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={activeAction}
+            initial={prefersReducedMotion ? 'visible' : 'hidden'}
+            animate="visible"
+            exit={prefersReducedMotion ? undefined : 'hidden'}
+            variants={prefersReducedMotion ? undefined : fadeIn}
+          >
+            <h3 className="font-serif text-2xl font-bold text-center mb-6">
+              {t(`coreActions.${activeAction}.title`)}
+            </h3>
+            {renderActionContent(activeAction)}
+          </motion.div>
+        </AnimatePresence>
       </Card>
     </Section>
   );

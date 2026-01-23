@@ -6,4 +6,6 @@ export { default as CoreActions } from './CoreActions';
 export { default as Harvest } from './Harvest';
 export { default as Scoring } from './Scoring';
 export { default as Components } from './Components';
+export { default as PlayerBoardGallery } from './PlayerBoardGallery';
+export { default as CardDatabase } from './CardDatabase';
 export { default as ComingSoon } from './ComingSoon';

@@ -1,0 +1,107 @@
+[
+  {
+    "id": "occ-1",
+    "name": "Farmer",
+    "type": "occupation",
+    "description": "At any time during the game, you may exchange 1 Wood for 1 Food or 1 Reed for 1 Food.",
+    "imagePath": "/agricola-showcase/assets/cards/occupations/0PMJXxF3lwJ_2iZlel9WXxGEWVx_CXhv0D8pE7jF-8K4X1aiTNnlPOxALFzHKRmn5KNfqXGNpO1SeCD7D4St9-C5rnGE9r-A-VdZhqU0mMHHFCnlydy4Q5h5op7bZAjXMctfVg3aqVOqmFZRmcYAzA.webp"
+  },
+  {
+    "id": "occ-2",
+    "name": "Wood Collector",
+    "type": "occupation",
+    "description": "Each time you play the 'Day Laborer' action, you also receive 1 Wood.",
+    "imagePath": "/agricola-showcase/assets/cards/occupations/3cYETEO2nHtuOK_ivs4aEFeUf9asKe_hwTyNWZpQLb7fO8zmo9LXmk6ervzWTtl2qpP2YvUUsCH0nobttwjfAN2LVOWb8Oum1j3aM5ZQoYNFF1YoxWnOLdrk4q4843CJPci1fYz_vnMY2tEWi3S9SQ.webp"
+  },
+  {
+    "id": "occ-3",
+    "name": "Clay Worker",
+    "type": "occupation",
+    "description": "At the start of each round, you receive 1 Clay from the general supply.",
+    "imagePath": "/agricola-showcase/assets/cards/occupations/7gFbosJ3EqLeG2XdIUfmoi1bev_SbDL9FIqgCtfYXflnTLOUWiHhtK5u4UJEDIKcXcNh1-2r5So4LtorT7VICIhp5mkKSOEGyVKT2IDkILNHE4nQCCC2EPKok0YRzTwCNEfi1dqEgza8lLEdZfwWPg.webp"
+  },
+  {
+    "id": "occ-4",
+    "name": "Baker",
+    "type": "occupation",
+    "description": "Whenever you bake bread, each Grain you convert into Food gives you 1 additional Food.",
+    "imagePath": "/agricola-showcase/assets/cards/occupations/GjLaCyIwwe4K_w3Bhu2P9P8fzxcojCq-MttJJTPSjiOFDRfhVZ39u34hyZOaERQt7ji6wUh7GmF2OWurDGYXcfj0roywgvuSRnM2CV7d3Kw76bQPDif6u20co8uwbD-IpSkIvjWFrbHzvEbiPV4RWQ.webp"
+  },
+  {
+    "id": "occ-5",
+    "name": "Animal Breeder",
+    "type": "occupation",
+    "description": "At the start of the Breeding phase, you may move 1 animal from one of your pastures to another pasture or your house.",
+    "imagePath": "/agricola-showcase/assets/cards/occupations/JFqxdqdr2rfvoR5d_QzMc9ypK9fPe_C5qmdu7m9KtiyHalGCD9uJTzOxARjAf5smRuYT2JiBmGg6_5n95cEtGNOnWxgEGufsqqKm2OlPr800D1QGUOQFpbGea8DrXLECCSxMKyrSMPUHcpF063DRmg.webp"
+  },
+  {
+    "id": "occ-6",
+    "name": "Shepherd",
+    "type": "occupation",
+    "description": "Each of your pastures can hold 1 more Sheep than usual.",
+    "imagePath": "/agricola-showcase/assets/cards/occupations/JKxVsRF4DrGCijScMHd-L7Y21E4xTOwuqmPD9wm_BuGfOMx-EZKk6ufgHqaXB0B_eTSADUdkUFWYrb3VNIXYxTuqi-5hAf8YUd0AQRr38dtj-Lvgy3Km9slU77PpPdhr61QbB_gYrIaUeRmc1gfzlQ.webp"
+  },
+  {
+    "id": "occ-7",
+    "name": "Swineherd",
+    "type": "occupation",
+    "description": "Each of your pastures can hold 1 more Boar than usual.",
+    "imagePath": "/agricola-showcase/assets/cards/occupations/TurVG6yqwSwzbAOJkbtMQ9JcrT_JF7QiIUP6GceKQDIdJ1az4WUyOby6dHjv4mQKR_sEQDuqdPbeTMtSWt-dMNMn_YhRYibcjVMhBWn1HHtU_KuihcASd4TW7f_kvN3Hn_JPYOJRWVZ51hlS4GqVqw.webp"
+  },
+  {
+    "id": "occ-8",
+    "name": "Fieldsman",
+    "type": "occupation",
+    "description": "After you sow Grain or Vegetables, you immediately receive 1 Food from the general supply.",
+    "imagePath": "/agricola-showcase/assets/cards/occupations/VUukLetdonAhp88BWfJLehNCLsIJlDYApOW8_StisRDswf7Zf08qGTCAO75VLj746A49mGdLrgX3h7iyvblt3UsPyKhZr9xacQT5yx0cH1Q1bSvzWf64EUrlQF_D4L1RUOmrCIuVCq8iapgC34GkvA.webp"
+  },
+  {
+    "id": "occ-9",
+    "name": "Carpenter",
+    "type": "occupation",
+    "description": "Whenever you renovate your house, you pay 1 less Wood than usual.",
+    "imagePath": "/agricola-showcase/assets/cards/occupations/WjG7AqOXEaaaj69n-w0oC9n18Y-aB9j3r0hoVVaiADQBQYwjENn-WYxid7nZrwz6wyvPYy0VYYOR3eNQxDYQsQf96VQXMBZdkGipaIuj1jpOF2J3vQo9BEe-Qq30s8j8I2KbZcm_cglJOMjsKpx7pA.webp"
+  },
+  {
+    "id": "occ-10",
+    "name": "Stone Carrier",
+    "type": "occupation",
+    "description": "Each time you take the 'Build Rooms and/or Stables' action, you also receive 1 Stone.",
+    "imagePath": "/agricola-showcase/assets/cards/occupations/X3KEpbwdIaLtNUR56JC6LKY_W3VqwMPEXa-m0qLLa8IaHpEaeQ1WgvD_NNvGjQPbW0GJaAzHD-Bt-R8CdTHPWwIFsqK52PX7fRvgW3SSLpOsWpalPFDXTPve1uWK7gMa_Z1VVtgg-VDV_fxef2fgEA.webp"
+  },
+  {
+    "id": "occ-11",
+    "name": "Plasterer",
+    "type": "occupation",
+    "description": "You may renovate from Wood to Clay for 1 Clay and 1 Reed, or from Clay to Stone for 1 Stone and 1 Reed.",
+    "imagePath": "/agricola-showcase/assets/cards/occupations/ZHxHoNiCpiVi9H-AeY0UMLVkrbTVb26rBZ0gKXSp8NCt_yDIi8-sWfhNBnZ-UwS2ROSQ8OwBtT0xZrsop5YRmzbDIf7lhGuw7CC6PB5OPXoJQjCbPvXEMfox0TCp1uwGaZyIyntvE_4cFNtComDCrg.webp"
+  },
+  {
+    "id": "occ-12",
+    "name": "Thatcher",
+    "type": "occupation",
+    "description": "Each time you build rooms or renovate, you need 1 less Reed than usual.",
+    "imagePath": "/agricola-showcase/assets/cards/occupations/bphe8S8WoTzELw8z4LcUM6CM4Dh6Mf6vcFlAIL87ZAlLVcdVAGlvcUbhjDEcjf_hAra9-_6VS-u1PHMHykiBpibMbL7fj033Pl3xorB_TLbBeUoG1no1HC9K08WD0HjWTF9R1dm8kldryDHFNEmuKw.webp"
+  },
+  {
+    "id": "occ-13",
+    "name": "Plowman",
+    "type": "occupation",
+    "description": "You may plow 1 Field for 1 Food instead of having to use the 'Plow Field' action.",
+    "imagePath": "/agricola-showcase/assets/cards/occupations/fCzFiTzP8yKHckzizZRyY2KEnAQR5VrLGkMF7f1ifGQ1-Jk3tjwaec2gcyheIVULdpQ9ftdFgxkofwxhLFjE0fzbUJcGogZE3Sz6458V0fpERmGO_QrFm34D5WFJaJwZxPBnOzo7i0tNhAUM-GxSTA.webp"
+  },
+  {
+    "id": "occ-14",
+    "name": "Gardener",
+    "type": "occupation",
+    "description": "During the Harvest, you receive 1 additional Vegetable from each of your fields that has at least 1 Vegetable.",
+    "imagePath": "/agricola-showcase/assets/cards/occupations/hMroBCPde8sBJDXez5xD1LVOUO7Eec0drzvpzNKhPJmeX-o8hxVtCbMuTsfXdUt0T3tlHJPOW8JhdXw3y-IyZnzpylaHiV1zfCXWguPAawQUXaS44_S9FhMdOnzzgVt78dC_LTA-Lr0NHfvQ4v_OtA.webp"
+  },
+  {
+    "id": "occ-15",
+    "name": "Grain Buyer",
+    "type": "occupation",
+    "description": "At any time during the game, you may exchange 1 Food for 1 Grain from the general supply.",
+    "imagePath": "/agricola-showcase/assets/cards/occupations/uEB4SVs8vT4N3pvxEy0IzQTg5eXGYOBTo3e9Ng2o_Knldk0TTaPUsFgsKD_VyjUI6Eaywr6ET7HoFDDXN1XRgZJ34m3jHG0k0ryjc8I0_E5oAqn8S9QiJBhi_iHmyA9dP3bM5daMdbSsCcZ7eUun6w.webp"
+  }
+]

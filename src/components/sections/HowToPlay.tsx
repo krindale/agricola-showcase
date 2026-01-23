@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { Section, SectionTitle, Card } from '../ui';
+import ImageWithFallback from '../ui/ImageWithFallback';
 
 export default function HowToPlay() {
   const { t } = useTranslation();
@@ -40,8 +41,14 @@ export default function HowToPlay() {
                 ))}
               </div>
               {stage.hasHarvest && (
-                <div className="mt-2 text-lg">
-                  🌾
+                <div className="mt-2 flex flex-col items-center gap-1">
+                  <ImageWithFallback
+                    src="/agricola-showcase/assets/components/house.webp"
+                    alt="Harvest"
+                    fallback="🌾"
+                    className="w-8 h-8 rounded object-cover"
+                    loading="lazy"
+                  />
                   <span className="text-xs block text-text/50">
                     {stage.isFinal ? t('howToPlay.finalHarvest') : t('howToPlay.harvest')}
                   </span>
@@ -65,6 +72,16 @@ export default function HowToPlay() {
                   →
                 </div>
               )}
+              {/* Visual example - game board thumbnail */}
+              <div className="mb-3 mx-auto w-20 h-20 rounded-lg overflow-hidden border-2 border-primary/20">
+                <ImageWithFallback
+                  src="/agricola-showcase/assets/game-boards/Agricola_game_board_1.jpg"
+                  alt={`Phase ${idx + 1}`}
+                  fallback={<div className="w-full h-full bg-primary/10 flex items-center justify-center text-2xl">📋</div>}
+                  className="w-full h-full object-cover opacity-60 hover:opacity-100 transition-opacity duration-300"
+                  loading="lazy"
+                />
+              </div>
               <div className="text-3xl mb-2 text-primary font-bold">{idx + 1}</div>
               <h4 className="font-medium text-text mb-1">
                 {t(`howToPlay.roundPhases.${phase}.title`)}
