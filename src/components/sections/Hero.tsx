@@ -28,17 +28,17 @@ export default function Hero() {
 
           <div className="flex flex-wrap justify-center gap-4 mb-12">
             <Badge variant="default">
-              <Counter value={1} duration={2000} />
+              <Counter value={1} />
               -
-              <Counter value={5} duration={2000} />
+              <Counter value={5} />
               {playersSuffix}
             </Badge>
             <Badge variant="accent">
-              <Counter value={30} duration={2000} />
+              <Counter value={30} />
               {timeSuffix}
             </Badge>
             <Badge variant="secondary">
-              <Counter value={12} duration={2000} />
+              <Counter value={12} />
               {ageSuffix}
             </Badge>
           </div>

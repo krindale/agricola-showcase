@@ -7,7 +7,10 @@ interface CounterProps {
   value: number;
   /**
    * Animation duration in milliseconds
-   * @default 2000
+   * If not provided, duration is automatically calculated based on number magnitude:
+   * - Single digit (1-9): 1200ms
+   * - Double digit (10-99): 1600ms
+   * - Triple digit (100+): 2000ms
    */
   duration?: number;
   /**
@@ -26,16 +29,28 @@ interface CounterProps {
   immediate?: boolean;
 }
 
+/**
+ * Calculate optimal animation duration based on number magnitude
+ */
+function getOptimalDuration(value: number): number {
+  if (value < 10) return 1200; // Single digit
+  if (value < 100) return 1600; // Double digit
+  return 2000; // Triple digit or more
+}
+
 export default function Counter({
   value,
-  duration = 2000,
+  duration,
   formatFn,
   className = '',
   immediate = false,
 }: CounterProps) {
+  // Use provided duration or calculate optimal duration
+  const animationDuration = duration ?? getOptimalDuration(value);
+
   const { count, ref } = useCounterAnimation({
     target: value,
-    duration,
+    duration: animationDuration,
     immediate,
   });
 

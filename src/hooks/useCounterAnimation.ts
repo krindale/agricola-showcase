@@ -52,7 +52,9 @@ export function useCounterAnimation({
         const elapsed = currentTime - startTime;
         const progress = Math.min(elapsed / duration, 1);
 
-        // Easing function (easeOutCubic)
+        // Easing function (easeOutCubic) - starts fast and slows down at the end
+        // This creates a natural counting effect where numbers accelerate quickly
+        // and decelerate smoothly as they approach the target
         const easeOut = 1 - Math.pow(1 - progress, 3);
         const currentCount = Math.floor(startValue + (target - startValue) * easeOut);
 

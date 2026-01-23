@@ -38,7 +38,7 @@ export default function Features() {
       return (
         <>
           {parts[0]}
-          <Counter value={number} duration={2000} />
+          <Counter value={number} />
           {parts[1]}
         </>
       );
