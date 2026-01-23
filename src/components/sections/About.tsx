@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { Section, SectionTitle } from '../ui';
+import { Section, SectionTitle, Card } from '../ui';
 
 export default function About() {
   const { t } = useTranslation();
@@ -9,7 +9,7 @@ export default function About() {
       <SectionTitle>{t('about.title')}</SectionTitle>
 
       <div className="max-w-3xl mx-auto">
-        <div className="bg-background rounded-2xl p-8 md:p-12 shadow-lg border border-primary/10">
+        <Card glass className="p-8 md:p-12">
           <div className="space-y-4 text-lg text-text/80 leading-relaxed">
             <p className="text-xl font-medium text-primary">
               {t('about.story.line1')}
@@ -25,7 +25,7 @@ export default function About() {
               {t('about.story.line7')}
             </p>
           </div>
-        </div>
+        </Card>
       </div>
     </Section>
   );
