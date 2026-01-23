@@ -17,3 +17,6 @@ build/
 .idea/
 .vscode/
 *.swp
+
+# Auto Claude data directory
+.auto-claude/
