@@ -32,3 +32,32 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-serif);
 }
+
+/* Glassmorphism Utilities - provides backdrop-blur glass effects */
+.glass {
+  background: rgba(253, 245, 230, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(139, 69, 19, 0.1);
+}
+
+.glass-light {
+  background: rgba(253, 245, 230, 0.5);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(139, 69, 19, 0.08);
+}
+
+.glass-strong {
+  background: rgba(253, 245, 230, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(139, 69, 19, 0.15);
+}
+
+.glass-dark {
+  background: rgba(47, 24, 16, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
